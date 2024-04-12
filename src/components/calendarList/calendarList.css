@@ -1,0 +1,32 @@
+
+.calendar__content {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar__list {
+    display: grid;
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .days__week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .days__item {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .calendar__content {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
